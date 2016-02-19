@@ -2,11 +2,17 @@ name: BradBot
 description: A simple Go bot starter for Beep Boop
 avatar: resources/avatar.jpg
 #background: resources/background.png
-#config:
-#  - name: OPTION
-#    friendly_name: Some Unnecessary Option
-#    info: This is an unnecessary option
-#    default: the default value
+config:
+  - name: GLOBAL_1
+    friendly_name: Global Value
+    info: This is an unnecessary option
+    type: secret
+    global: true
+  - name: GLOBAL_2
+    friendly_name: Global Value 2
+    info: A second global value
+    global: true
+    type: secret
 #  - name: SECRET
 #    friendly_name: Shhhh
 #    info: This is an secret option
