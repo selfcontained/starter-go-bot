@@ -15,8 +15,7 @@ config:
     info: A second global value
     global: true
     type: secret
-#  - name: SECRET
-#    friendly_name: Shhhh
-#    info: This is an secret option
-#    type: secret
-#    default: not secret though
+  - name: TEAM_VALUE
+    friendly_name: Shhhh
+    info: This is a team value
+    type: text
